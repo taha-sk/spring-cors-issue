@@ -1,0 +1,10 @@
+<p>Resource Output</p>
+<div *ngIf="resource">
+  <p>Id: <span>{{resource.id}}</span></p>
+  <p>Message: <span>{{resource.content}}!</span></p>
+</div>
+
+<p>Repository Output</p>
+<div *ngFor="let widget of repository?._embedded?.widgets">
+  <p>Name: <span>{{widget.name}}</span></p>
+</div>
