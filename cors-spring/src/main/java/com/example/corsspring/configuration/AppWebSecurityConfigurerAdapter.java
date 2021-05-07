@@ -1,4 +1,4 @@
-/*
+
 package com.example.corsspring.configuration;
 
 import org.springframework.context.annotation.Bean;
@@ -35,4 +35,3 @@ public class AppWebSecurityConfigurerAdapter extends WebSecurityConfigurerAdapte
 //	}
 
 }
-*/
