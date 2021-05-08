@@ -14,8 +14,26 @@
 	<name>cors-spring</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+		<spring-framework.version>5.3.7-SNAPSHOT</spring-framework.version>
+		<spring-data-bom.version>2020.0.9-SNAPSHOT</spring-data-bom.version>
 		<java.version>11</java.version>
 	</properties>
+	
+    <repositories>
+        <repository>
+            <id>spring-snapshots</id>
+            <url>https://repo.spring.io/snapshot</url>
+            <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-snapshots</id>
+            <url>https://repo.spring.io/snapshot</url>
+        </pluginRepository>
+    </pluginRepositories>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

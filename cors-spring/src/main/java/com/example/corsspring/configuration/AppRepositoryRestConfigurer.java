@@ -10,7 +10,7 @@ public class AppRepositoryRestConfigurer implements RepositoryRestConfigurer {
 	
 	@Override
 	public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
-		cors.addMapping("/**").allowedOrigins("http://localhost:4200").allowedHeaders("*").maxAge(3600L);
+//		cors.addMapping("/**").allowedOrigins("http://localhost:4200").allowedHeaders("*").maxAge(3600L);
 	}
 
 }
